@@ -1,7 +1,13 @@
 # swift_audio_control
 
+https://www.notion.so/Swift-MP3-handling-ac71bb7c3fa5449eabeed2fd618188ca
+
 
 # What I learned from this project
+
+
+
+### ❗️Player 객체 하나만 생성하면 아주 편하게 control 가능. 어차피 음악을 동시에 두 개를 듣는 사람은 없다.
 
 ### 원래는 controller 간에 protocol을 파서 데이터를 주고 받지만, 정말 급하면 class 밖에 변수를 선언해서 값을 공유하는 것도 나빠보이지 않는다.
 
