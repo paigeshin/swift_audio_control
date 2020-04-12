@@ -142,7 +142,7 @@
 
     let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
 
-### Fold안에 content 가져오기
+### Folder 안에 content 가져오기
 
     let songPath = try FileManager.default.contentsOfDirectory(at: folderURL,
                                                                     includingPropertiesForKeys: nil,
